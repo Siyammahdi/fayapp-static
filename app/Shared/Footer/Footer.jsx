@@ -8,9 +8,9 @@ const Footer = () => {
     return (
         <div>
             <ComponentLayout>
-                <div className='flex justify-between text-sm text-gray-600 pb-10 font-semibold'>
-                    <h6>© 2024, Fey Labs Inc.</h6>
-                    <ul className='flex gap-8'>
+                <div className='flex flex-col lg:flex-row items-center justify-between text-sm text-gray-600 py-10 font-semibold'>
+                    <h6 className='lg:mb-0 mb-10'>© 2024, Fey Labs Inc.</h6>
+                    <ul className='flex flex-col md:flex-row gap-8'>
                         <li><Link href="/">Pricing</Link></li>
                         <li><Link href="/">Updates</Link></li>
                         <li><Link href="/">Download</Link></li>
