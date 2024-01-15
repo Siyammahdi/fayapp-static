@@ -22,7 +22,7 @@ const EverythingSection = () => {
                     <BriefText>{briefText}</BriefText>
                 </div>
                 <div className='py-20'>
-                    <div className='py-10'>
+                    <div className='flex flex-col lg:flex-row justify-between items-center py-6'>
                         <BriefText className="font-bold text-start mx-0 py-10 text-xs lg:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, accusamus! Dolorum reiciendis eius fugit repellendus vel dolores consequatur. Aspernatur, incidunt.</BriefText>
                         <Image src={Img1} alt='1' />
                     </div>
